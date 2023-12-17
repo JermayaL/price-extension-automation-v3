@@ -9,7 +9,7 @@
 <li>const merchant_id = {Merchant Centre ID</li>
 <li>const days = {days historic performance}</li>
 <li>const sheet_url = "https://docs.google.com/spreadsheets/d/1S5SDhNO1pouXvGprRAXnwqvVpzNmaGQjPDaUzPONxmQ/copy"</li>
-<li>const priceType = "PRODUCT_CATEGORIES" //supported types 'BRANDS', 'EVENTS', 'LOCATIONS', 'NEIGHBORHOODS', 'PRODUCT_CATEGORIES', 'PRODUCT_TIERS', 'SERVICES', 'SERVICE_CATEGORIES', 'SERVICE_TIERS'</li>
+<li>const priceType = "PRODUCT_TIERS" //supported types 'BRANDS', 'EVENTS', 'LOCATIONS', 'NEIGHBORHOODS', 'PRODUCT_CATEGORIES', 'PRODUCT_TIERS', 'SERVICES', 'SERVICE_CATEGORIES', 'SERVICE_TIERS'</li>
 <li>const language = "nl" // supported languages: de, en, es, es-419, fr, it, nl, pl, pt-BR, pt-PT, sv (check your country code)</li>
 <li>const sales_limit = 1 // only bring product IDs with at least 1 sale.</li>
 <li>const field = "customLabel0" // customLabel0, customLabel1, customLabel2, customLabel3, customLabel4</li>
