@@ -1,7 +1,7 @@
 function main() {
     const merchant_id = XXXXXX
     const days = 60
-    const sheet_url = "https://docs.google.com/spreadsheets/d/1EqbNizeeHhH49r2A25jnCOQ_3OZeTnHPlBcjMd50huY/edit#gid=0"
+    const sheet_url = "https://docs.google.com/spreadsheets/d/1S5SDhNO1pouXvGprRAXnwqvVpzNmaGQjPDaUzPONxmQ/copy"
     const priceType = "PRODUCT_TIERS" //supported types 'BRANDS', 'EVENTS', 'LOCATIONS', 'NEIGHBORHOODS', 'PRODUCT_CATEGORIES', 'PRODUCT_TIERS', 'SERVICES', 'SERVICE_CATEGORIES', 'SERVICE_TIERS'
     const language = "nl" //supported languages: de, en, es, es-419, fr, it, ja, nl, pl, pt-BR, pt-PT, ru, sv
     const sales_limit = 1
