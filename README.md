@@ -6,8 +6,8 @@
 2. Adjust the rows in this script:
 &nbsp;
 <ul>
-<li>const merchant_id = {Merchant Centre ID</li>
-<li>const days = {days historic performance}</li>
+<li>const merchant_id = Merchant Centre ID</li>
+<li>const days = days historic performance</li>
 <li>const sheet_url = "https://docs.google.com/spreadsheets/d/1S5SDhNO1pouXvGprRAXnwqvVpzNmaGQjPDaUzPONxmQ/copy"</li>
 <li>const priceType = "PRODUCT_TIERS" //supported types 'BRANDS', 'EVENTS', 'LOCATIONS', 'NEIGHBORHOODS', 'PRODUCT_CATEGORIES', 'PRODUCT_TIERS', 'SERVICES', 'SERVICE_CATEGORIES', 'SERVICE_TIERS'</li>
 <li>const language = "nl" // supported languages: de, en, es, es-419, fr, it, nl, pl, pt-BR, pt-PT, sv (check your country code)</li>
