@@ -3,7 +3,7 @@ function main() {
     const days = 60
     const sheet_url = "https://docs.google.com/spreadsheets/d/1S5SDhNO1pouXvGprRAXnwqvVpzNmaGQjPDaUzPONxmQ/copy"
     const priceType = "PRODUCT_TIERS" //supported types 'BRANDS', 'EVENTS', 'LOCATIONS', 'NEIGHBORHOODS', 'PRODUCT_CATEGORIES', 'PRODUCT_TIERS', 'SERVICES', 'SERVICE_CATEGORIES', 'SERVICE_TIERS'
-    const language = "nl" //supported languages: de, en, es, es-419, fr, it, ja, nl, pl, pt-BR, pt-PT, ru, sv
+    const language = "nl" //supported languages: de, en, es, es-419, fr, it, ja, nl, pl, pt-BR, pt-PT, sv
     const sales_limit = 1
     const field = "customLabel0" // customLabel0, customLabel1, customLabel2, customLabel3, customLabel4
     
