@@ -42,8 +42,8 @@ function getGpt(userContent, num) {
     return response.choices[0].message.content.replaceAll('"',"").replaceAll('!',"").replaceAll('?',"");
   } catch (e) {
     console.log(e)
-    //SpreadsheetApp.getActiveSpreadsheet().toast("Some Error Occured Please check your formula or try again later.");
-    return "Some Error Occured Please check your formula or try again later.";
+    //SpreadsheetApp.getActiveSpreadsheet().toast("Some Error occured Please check your formula or try again later.");
+    return "Some Error occured Please check your formula or try again later.";
   }
 }
 
