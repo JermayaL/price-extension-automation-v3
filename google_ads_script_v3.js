@@ -152,7 +152,7 @@ function connectMerchant({merchant_id, stats, sh, sales_limit, field}) {
                 }
 
 
-                // Wählen Sie das Produkt mit dem kleinsten Preis für jeden einzigartigen Titel aus
+                // Select the product with the lowest price for each unique title
                 if (!uniqueProducts[title] || uniqueProducts[title].price > parseFloat(product.price.value.replace(/[^0-9.]/g, ''))) {
                     uniqueProducts[title] = {
                         id: product.offerId.toString(),
@@ -164,7 +164,7 @@ function connectMerchant({merchant_id, stats, sh, sales_limit, field}) {
                     };
                 }
 
-                // Konvertieren Sie uniqueProducts in das erforderliche Format
+                // Convert uniqueProducts to the required format
                 var products = {};
                 for (const [title, product] of Object.entries(uniqueProducts)) {
                     // Erstellen von drei verschiedenen Label-Typen
