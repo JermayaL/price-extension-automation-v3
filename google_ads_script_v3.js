@@ -1,7 +1,7 @@
 function main() {
     const merchant_id = 
     const days = 60
-    const sheet_url = ""
+    const sheet_url = "https://docs.google.com/spreadsheets/d/1S5SDhNO1pouXvGprRAXnwqvVpzNmaGQjPDaUzPONxmQ/copy"
     const priceType = "PRODUCT_TIERS" //supported types 'BRANDS', 'EVENTS', 'LOCATIONS', 'NEIGHBORHOODS', 'PRODUCT_CATEGORIES', 'PRODUCT_TIERS', 'SERVICES', 'SERVICE_CATEGORIES', 'SERVICE_TIERS'
     const language = "de" //supported languages: de, en, es, es-419, fr, it, ja, nl, pl, pt-BR, pt-PT, sv
     const sales_limit = 2 // first time running this script? Please start first with sales_limit = 0. After inserting all products into the spreadsheet you could set this limit > 0.
