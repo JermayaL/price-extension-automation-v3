@@ -1,3 +1,10 @@
+// Copyright 2023. All Rights Reserved.
+// Jermaya Leijen (https://jermayads.nl/)
+// Custom requests? info@jermayads.nl
+//
+// V3.1 - Resolved some issues and great additions to the script
+// Improvements by Bernhard Prange: https://webmasterei-prange.de/
+
 function main() {
     const merchant_id = XXXXXX
     const days = 60
